@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-inline: auto;
+  height: 200px;
+}
+div#root {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+.numb {
+  color: red;
+  font-weight: bold;
+}
+.inputs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 10px;
+}
