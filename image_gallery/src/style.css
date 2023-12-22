@@ -1,0 +1,23 @@
+body{
+  background-color: rgb(201, 201, 201);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.container > img {
+  width: 40%;
+}
+.subContainer {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+  gap: 20px;
+}
+.subContainer img {
+  width: 10%;
+  cursor: pointer;
+}
